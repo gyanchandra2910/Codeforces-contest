@@ -1,0 +1,54 @@
+# Compiled executables
+*.exe
+*.out
+*.app
+
+# C++ compiled object files
+*.o
+*.obj
+
+# Debug files
+*.pdb
+*.dSYM/
+
+# VS Code settings (optional - uncomment if you want to ignore VS Code settings)
+# .vscode/
+# *.code-workspace
+
+# IDE and editor files
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+
+# Input/output files (common in competitive programming)
+input.txt
+output.txt
+*.in
+*.out
+
+# Test files (if any)
+test/
+tests/
+
+# Build directories
+build/
+bin/
+obj/
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
