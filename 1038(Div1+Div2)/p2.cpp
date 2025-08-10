@@ -10,39 +10,20 @@ int main()
   {
     long long n;
     cin >> n;
-    vector<long long> noOfZero(n);
-    vector<long long> noOfOne(n);
-    vector<long long> requiredZero(n);
-    vector<long long> requiredOne(n);
-    for (long long i = 0; i < n; i++)
-    {
-      cin >> noOfZero[i] >> noOfOne[i] >> requiredZero[i] >> requiredOne[i];
-    }
     long long ans = 0;
-
-
-    if(noOfOne[0] > requiredOne[0])
+    for(int i = 0; i < n; i++)
     {
-      ans += noOfOne[0] - requiredOne[0];
-    }
-  
-
-    int swaps = 0;
-    for(long long i = 0; i < n; i++)
-    {
-      if(noOfZero[i] != requiredZero[i])
+      long long a,b,c,d;
+      cin >> a >> b >> c >> d;
+      if(b > d)
       {
-        swaps += abs(noOfZero[i] - requiredZero[i]);
+        ans += a + (b - d);
       }
-
-      if(noOfOne[i] != requiredOne[i])
+      else if(a > c)
       {
-        swaps += abs(noOfOne[i] - requiredOne[i]);
+        ans += a - c;
       }
     }
-
-    swaps /= 2; 
-    ans += swaps;
 
     cout << ans << "\n";
   }
