@@ -1,0 +1,55 @@
+# Competitive Programming Helper (CPH) files
+.cph/
+*.cph
+
+# Compiled executables
+*.exe
+*.out
+*.app
+*.o
+*.obj
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Temporary files
+*.tmp
+*~
+
+# IDE and editor files
+.vscode/
+.vs/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Input/Output files (sometimes used for testing)
+input.txt
+output.txt
+*.in
+*.ans
+
+# Backup files
+*.bak
+*.backup
+
+# Log files
+*.log
+
+# Core dumps
+core.*
+
+# Memory dumps
+*.stackdump
